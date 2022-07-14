@@ -1,0 +1,21 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+#small-world {
+    height: 400px;
+}
+
+
+/* Part 2 */
+
+.btn {
+    height: 30px;
+    width: 70px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 4px 4px darkslategray;
+}

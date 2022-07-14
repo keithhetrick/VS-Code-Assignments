@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper, nav, #row, #content, #title, #box1, #col-2, .friends, h3, .counter {
+    display: flex;
+}
+
+#wrapper, #row, #container, #title {
+    justify-content: center;
+}
+
+h3, .counter, .friends {
+    flex-direction: row;
+}
+
+#box1, .friends, .counter {
+    align-items: center;
+}
+
+#wrapper {
+    margin: -8px;
+}
+
+nav {
+    width: 600px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+#row {
+    align-content: space-between;
+}
+
+#container {
+    width: 600px;
+    display: contents;
+}
+
+#content {
+    width: 600px;    
+    justify-content: space-between;
+}
+
+#title {
+    width: default;
+    margin-bottom: -5px;
+}
+
+#box1, #box2, #box3, #box4 {
+    border: 1px solid black;
+}
+
+#box2, #box3, #box4 {
+    width: 400px;
+    height: 100px;
+    padding: 12px 20px;
+    justify-content: space-evenly;
+}
+
+#box1 {
+    width: 120px;
+    height: 200px;
+    gap: 20px;
+}
+
+#box3 {
+    height: 86px;
+}
+
+#box1 img {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+}
+
+#box1, #col-2 {
+    flex-direction: column;
+}
+
+#col-2 {
+    gap: 20px;
+}
+
+.friends {
+    margin-top: -10px;
+    /* margin-bottom: -10px */
+}
+
+h3, .counter {
+    flex: 1;
+}
+
+.counter {
+    justify-content: end;
+}
+
+.text {
+    width: 400px;
+    text-overflow: ellipsis;
+}
+
+button {
+    height: 25px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: rgb(236, 255, 30);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 0px;
+    box-shadow: 3px 3px darkslategray;
+}

@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, #container {
+    background-color: rgb(222, 222, 222);
+}
+
+#wrapper-top, #top-row, #wrapper-nav, nav, .nav-items, h1, #container, #contents, #main-board-content, #main-board-header, #icons, #sidebar {
+    display: flex;
+}
+
+#wrapper-top, #top-row, #container, #icons, #box1, #box2, #box3 {
+    justify-content: center;
+}
+
+#time-remaining, #vs, #nav-title, #left-column, #right-column, #btn1, #btn2 {
+    text-align: center;
+}
+
+#wrapper-top, #box1, #box2, #box3, #main-board, #team1, #team2, #btn2 {
+    background-color: white;
+}
+
+.for-the-lulz, #btn1, #btn2, #subscribe {
+    cursor: pointer;
+}
+
+#box1, #box2, #box3, #main-board, #icons {
+    margin-right: 25px;
+}
+
+#box1, #box2, #box3, #main-board {
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 15px; 
+}
+
+#btn1, #btn2, #subscribe {
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: 2.5px 2.5px 0px 0px black;
+}
+
+#box1, #box2, #box3 {
+    width: 185px;
+    border-radius: 10%;
+}
+
+.nav-items, #nav-title, #btn1 {
+    color: white;
+}
+
+#btn1, #btn2 {
+    width: 85px;
+}
+
+#icons, #sidebar {
+    align-items: center;
+}
+
+h4, h1, #vs, #live {
+    font-size: xx-large;
+}
+
+#btn2, #subscribe, #team1, #team2, hr {
+    color: black;
+}
+
+#nav-border-box, #live, #middle-column {
+    width: 100px;
+}
+
+#btn1, #btn2, #subscribe, #footer-text {
+    margin-top: 10px;
+}
+
+#pirates-current-season, #team-pirates, #live{
+    color: red;
+}
+
+#ninjas-current-season, #team-ninjas{
+    color: rgb(87, 104, 87);
+}
+
+#live-scores-title, .nav-items, #live {
+    align-self: center;
+}
+
+#wrapper-nav, .nav-items, h1 {
+    justify-content: space-evenly;
+}
+
+#main-board-header, nav {
+    justify-content: space-between;
+}
+
+#top-row, #live-scores-teams {
+    margin-left: 50px;
+}
+
+#top-row, nav, #nav-border-box {
+    height: 50px;
+}
+
+#top-row div {
+    margin-left: 60px;
+    flex-basis: 650px;
+}
+
+#live-scores-teams, #middle-column {
+    display: grid;
+}
+
+#live-scores-teams {
+    width: 700px;
+}
+
+#nav-border-box, #btn2 {
+    margin-left: 10px;
+}
+
+#team1, #team2 {
+    font-size: 60px;
+    font-weight: bold;
+    border: none
+}
+
+.top-stories, .nav-items {
+    list-style: none;
+}
+
+#wrapper-nav, nav, hr {
+    background-color: rgb(25, 25, 25);
+}
+
+nav {
+    width: 800px;
+}
+
+.nav-items {
+    width: 450px;
+    margin-right: 120px
+}
+
+#icons {
+    gap: 20px;
+}
+
+h1 {
+    width: 400px;
+}
+
+h2 {
+    margin-bottom: 10px
+}
+
+hr {
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+}
+
+#nav-border-box {
+    background-color: red;
+    transform: skew(-14deg);
+}
+
+#nav-title {
+    margin-top: 12.5px;
+}
+
+.top-stories {
+    font-weight: 100;
+}
+
+.top-stories > * {
+    gap: 15px;
+}
+
+#main-board-content img {
+    height: 200px;
+}
+
+#icons img {
+    width: 25px;
+}
+
+ul {
+    line-height: 2.5em;
+}
+
+#sidebar, #mainboard {
+    flex: 1;
+}
+
+#sidebar {
+    width: 230px;
+    flex-direction: column;
+}
+
+#main-board {
+    width: 500px;
+    height: 423px;
+    float: right;
+    flex: 2;
+    border-radius: 5%;
+    padding-bottom: 25px;
+}
+
+#left-column, #right-column {
+    width: 250px;
+}
+
+#middle-column {
+    align-content: space-evenly;
+}
+
+#btn1 {
+    background-color: rgb(0, 153, 255);
+}
+
+#btn2 {
+    transition-duration: 0.4s;
+}
+
+#subscribe {
+    width: 182px;
+    background-color: rgb(252, 255, 180);
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px #999;
+    position: relative;
+    bottom: 5px;
+}

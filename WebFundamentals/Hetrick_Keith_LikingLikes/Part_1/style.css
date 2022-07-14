@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body, #wrapper, #container, #counter, #textarea {
+    display: flex;
+}
+
+body, #box, #wrapper, #textarea {
+    justify-content: center;
+}
+
+body, #wrapper, #counter, #textarea {
+    align-items: center;
+}
+
+#box, #wrapper, #container {
+    width: 340px;
+}
+
+#container, #counter {
+    justify-content: space-evenly;
+}
+
+body {
+    padding: 25px;
+    margin: default;
+    height: default;
+}
+
+#box {
+    border: 3px solid black;
+}
+
+#wrapper {
+    height: 50px;
+}
+
+#counter {
+    width: 175px;
+    margin-left: 50px;
+}
+
+#textarea {
+    width: 300px;
+    margin-left: 20px;
+    text-overflow: ellipsis;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+button {
+    height: 25px;
+    width: 50px;
+    background-color: rgb(236, 255, 30);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 0px;
+    box-shadow: 3px 3px darkslategray;
+}

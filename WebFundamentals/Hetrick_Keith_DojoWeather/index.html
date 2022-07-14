@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="full-page">
+        <div id="wrapper-top">
+                <nav>
+                    <h1>Dojo Weather</h1>
+                    <table id="see-other-cities">
+                        <tr>
+                            <td onclick="otherCities(this)">Burbank</td>
+                            <td onclick="otherCities(this)">Chicago</td>
+                            <td onclick="otherCities(this)">Dallas</td>
+                        </tr>
+                    </table>
+                </nav>
+        </div>
+        <header id="current-city">
+            <div id="wrapper-header">
+                <div id="display">
+                    <h2>San Jose</h2>
+                    <div id="temperature-box">
+                        <p>show temperature in </p>
+                        <select name="temp-box" onchange="pickDisplay(this)">
+                            <option value="c">ºC</option>
+                            <option value="f">ºF</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </header>
+        <main>
+            <div id="wrapper-main">
+                <div id="container">
+                    <div id="box1">
+                        <h3>Today</h3>
+                        <img src="images/some_rain.png" alt="some-rain-icon">some rain
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td onclick="change(this)" class="current-temp-display">24</td>
+                                    <td onclick="change(this)" class="current-temp-display">18</td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div id="box2">
+                        <h3>Tomorrow</h3>
+                        <img src="images/some_sun.png" alt="some-sun-icon">some sun
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td onclick="change(this)" class="current-temp-display">27</td>
+                                    <td onclick="change(this)" class="current-temp-display">19</td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div id="box3">
+                        <h3>Friday</h3>
+                        <img src="images/some_clouds.png" alt="some-clouds-icon">some clouds
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td onclick="change(this)" class="current-temp-display">21</td>
+                                    <td onclick="change(this)" class="current-temp-display">16</td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div id="box4">
+                        <h3>Saturday</h3>
+                        <img src="images/some_sun.png" alt="some-sun-icon">some sun
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td onclick="change(this)" class="current-temp-display">26</td>
+                                    <td onclick="change(this)" class="current-temp-display">21</td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="wrapper-bottom">
+                <div id="cookie">
+                    <img src="images/cookie.png" alt="cookie-icon">
+                    <div id="footer-info">
+                        <strong>Stop! Cookie time</strong>
+                        <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="">Read more...</a></p>
+                    </div>
+                    <button id="cookie-btn" onclick="remove(this)" onmouseover="over(this)" onmouseout="out(this)">I Accept</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

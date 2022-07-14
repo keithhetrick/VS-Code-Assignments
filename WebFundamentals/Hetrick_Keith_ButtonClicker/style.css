@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    border: 0;
+	outline: 0;
+}
+
+body {
+    cursor: pointer;
+}
+
+header {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#wrapper, nav, #contents, #col, #col-2, #box1, #box2, #btn1, #btn2, #btn3 {
+    display: flex;
+}
+
+#wrapper, #btn1, #btn2, #btn3 {
+    justify-content: center;
+    width: default;
+}
+
+nav, #box1, #box2 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 660px;
+    height: 30px;
+    border: 2px;
+    padding: 10px;
+    background-color: rgb(174, 174, 174);
+}
+
+#container {
+    width: 700px;
+    margin: auto;
+}
+
+#contents {
+    margin-top: 10px;
+}
+
+#box1, #box2, #box3 {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+}
+
+.definition {
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.entry1 {
+    width: 100px;
+    text-align: center;
+}
+
+#btn1, #btn2, #btn3, #login {
+    box-shadow: 2.5px 2.5px 0px 0px rgb(0, 0, 0);
+}
+
+#btn1, #btn2, #btn3 {
+    display: table-cell;
+    height: 25px;
+    margin-top: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#btn1, #btn2 {
+    width: 70px;
+    background-color: yellow;
+}
+
+#btn3 {
+    width: 191px;
+    background-color: lightgreen;
+}
+
+#search {
+    width: 300px;
+}
+
+#login {
+    color: white;
+    width: 60px;
+    height: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #2b78e4;
+}
+
+#col, #col-2 {
+    width: 380px;
+    flex: 1;
+    flex-direction: column;
+}
+#col {
+    flex: 2;
+}

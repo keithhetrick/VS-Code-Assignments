@@ -1,0 +1,24 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+span {
+    color: rgb(44, 173, 253);
+}
+
+h2 {
+    text-align:center; font-weight: light; font-style: italic;
+    background-color: purple;
+    color: white;
+}
+
+h3 {
+    text-align:right; font-weight: light; text-decoration: underline;
+    background-color: rgb(135, 153, 235);
+    color: black;
+}

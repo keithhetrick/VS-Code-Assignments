@@ -1,0 +1,44 @@
+h1 {
+    color: darkolivegreen;
+    margin-left: 270px;
+}
+img {
+    height: 200px;
+    margin: 10px;
+}
+.containter {
+    display: flex;
+    width: 720px;
+    border: 5px;
+}
+.box1 {
+    background-color: skyblue;
+    width: 700px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box2 {
+    background-color: rgb(255, 176, 233);
+    width: 700px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box3 {
+    background-color: whitesmoke;
+    width: 700px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+p {
+    color: darkolivegreen;
+    margin-left: 240px;
+}

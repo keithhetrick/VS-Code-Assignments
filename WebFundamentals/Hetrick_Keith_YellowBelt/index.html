@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Live Scores</title>
+</head>
+<body>
+    <div id="full-page">
+        <!-- Header -->
+        <header id="nav-header">
+            <div id="wrapper-top">
+                <div id="top-row">
+                    <h3 id="live-scores-title">Live Scores</h3>
+                    <div id="live-scores-teams">
+                        <table>
+                            <tr>
+                                <td>SJC Ninjas - 314</td>
+                                <td>CHI Samurai - 0</td>
+                                <td>BOS Hackers - 13</td>
+                                <td>BOI Knights - 5</td>
+                            </tr>
+                            <tr>
+                                <td>NS Pirates - 159</td>
+                                <td>TUL Wizards - 0</td>
+                                <td>TYO Youkai - 37</td>
+                                <td>SEA Sea Lions - 11</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="wrapper-nav">
+                <nav>
+                    <div id="nav-border-box">
+                        <h2 id="nav-title">DSNN</h2>
+                    </div>
+                    <ul class="nav-items">
+                        <li>Football</li>
+                        <li>Basketball</li>
+                        <li>Baseball</li>
+                        <li>Soccer</li>
+                        <li>More...</li>
+                    </ul>
+                    <div id="icons">
+                        <img class="for-the-lulz" src="images/search-light.png" alt="search">
+                        <img class="for-the-lulz" src="images/hamburger-light.png" alt="search">
+                        <img class="for-the-lulz" src="images/user-circle-light.png" alt="search">
+                    </div>
+                </nav>
+            </div>    
+        </header>
+        <!-- Main -->
+        <main id="container">
+            <div id="contents">
+                <div id="sidebar">
+                    <article id="box1">
+                        <h2>Top Stories</h2>
+                        <hr>
+                        <ul class="top-stories">
+                            <li>Ninjas up big in 5th</li>
+                            <li>Best sports cities</li>
+                            <li>Choi joins Hall of Fame</li>
+                            <li>Tournament underway</li>
+                            <li>Samurai at Wizards...</li>
+                        </ul>
+                    </article>
+                    <aside id="box2">
+                        <h3>Customize your DSNN</h3>
+                        <div class="Btn">
+                            <button id="btn1" type="button" onclick="signIn(this)">Sign In</button>
+                            <button id="btn2" onclick="signUp()" onmouseover="over(this)" onmouseout="out(this)">Sign Up</button>
+                        </div>
+                    </aside>
+                    <div id="box3">
+                        <h3>Never miss a play</h3>
+                        <button id="subscribe" onclick="hide(this)">Subscribe</button>
+                    </div>
+                </div>
+                <section id="main-board">
+                    <div id="main-board-header">
+                        <div id="live">• Live</div>
+                        <h1>Ninjas Leading Pirates</h1>
+                    </div>
+                    <div id="main-board-container">
+                        <div id="main-board-content">
+                            <div id="left-column">
+                                <img src="images/sjc-ninjas.png" alt="">
+                                <p>San Jose</p>
+                                <h4 id="team-ninjas">Ninjas</h4>
+                                <p class="win-loss-record" id="ninjas-current-season">(10 W - 3 L)</p>
+                                <div class="counter">
+                                    <button id="team1" onclick="add1(0)">314</button>
+                                </div>
+                            </div>
+                            <div id="middle-column">
+                                <p id="vs">VS</p>
+                                <br>
+                                <p id="time-remaining">0:13 remaining <br>
+                                5th period</p>
+                            </div>
+                            <div id="right-column">
+                                <img src="images/ns-pirates.png" alt="">
+                                <p>Nova Scotia</p>
+                                <h4 id="team-pirates">Pirates</h4>
+                                <p class="win-loss-record" id="pirates-current-season">(12 W - 2 L)</p>
+                                <div class="counter">
+                                    <button id="team2" onclick="add1(1)">159</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer>
+                        <hr>
+                        <p id="footer-text">A conservative match between the two top-performing sides in the Central League Division with a number 1 seed at stake... <a href="">get live updates</a></p>
+                    </footer>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
